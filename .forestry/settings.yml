@@ -7,7 +7,6 @@ sections:
 - type: jekyll-posts
   label: Pokus
   create: documents
-  match: "**/*"
   templates:
   - daily-menu
 - type: heading
@@ -39,7 +38,6 @@ sections:
 - type: document
   path: _data/contacts.yml
   label: Kontakty
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

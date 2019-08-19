@@ -12,6 +12,20 @@ fields:
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD
+- name: language
+  type: select
+  default: Česky
+  config:
+    required: false
+    options:
+    - Česky
+    - English
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Jazyk
 - name: daily_menu
   type: textarea
   default: ''
