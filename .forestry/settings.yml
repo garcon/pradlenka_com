@@ -33,6 +33,10 @@ sections:
 - type: document
   path: _data/contacts.yml
   label: Kontakty
+- type: document
+  path: _data/opening-hours.yml
+  label: Otevírací doba
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
