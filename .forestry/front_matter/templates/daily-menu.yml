@@ -1,7 +1,6 @@
 ---
-label: Denní nabídka
+label: Daily Menu
 hide_body: true
-display_field: daily_menu
 fields:
 - name: date
   type: datetime
