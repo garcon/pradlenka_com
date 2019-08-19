@@ -85,5 +85,3 @@ fields:
   showOnly:
     field: laundry_toggle
     value: true
-pages:
-- pradlenka-restaurant-bar.md
