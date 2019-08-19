@@ -17,6 +17,7 @@ sections:
   create: documents
   new_doc_ext: md
   templates:
+  - nbnbn
   - landing-page
 - type: heading
   label: Denní menu
