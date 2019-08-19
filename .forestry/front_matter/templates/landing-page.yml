@@ -27,23 +27,22 @@ fields:
       required: false
     label: Nadpis
     default: Pradlenka – restaurant & bar
-  - name: daily_menu_toggle
-    type: boolean
-    label: Máme denní nabídku?
-    default: false
-  - name: daily_menu
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: denni-menu-cesky
-        file: 
-        path: 
-    label: Denní nabídka
-    showOnly:
-      field: daily_menu_toggle
-      value: true
   label: Úvodní obrázek
+- name: daily_menu_toggle
+  type: boolean
+  label: Máme denní nabídku?
+- name: daily_menu_select
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: denni-menu-cesky
+      file: 
+      path: 
+  label: Denní nabídka
+  showOnly:
+    field: daily_menu_toggle
+    value: true
