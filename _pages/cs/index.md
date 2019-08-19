@@ -29,5 +29,6 @@ laundry_pricelist:
 - item: Sušení
   description: 12 minut
   price: 30
+lang: cs
 
 ---

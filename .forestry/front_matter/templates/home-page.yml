@@ -111,3 +111,5 @@ fields:
     schema:
       format: markdown
   label: O nás
+pages:
+- _pages/cs/index.md
