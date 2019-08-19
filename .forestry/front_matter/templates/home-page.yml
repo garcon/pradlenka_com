@@ -97,5 +97,17 @@ fields:
     schema:
       format: markdown
   label: O nás
-pages:
-- pradlenka-restaurant-bar.md
+- name: lang
+  type: select
+  default: cs
+  config:
+    required: false
+    options:
+    - cs
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Jazyk
