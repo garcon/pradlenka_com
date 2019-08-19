@@ -8,18 +8,35 @@ fields:
   fields:
   - name: date
     type: datetime
-    label: Date
+    label: Datum
     description: ''
     config:
       required: false
-      date_format: DD. MM. YYYY
+      date_format: dddd D. M. YYYY
       time_format: 
       display_utc: false
       export_format: YYYY-MM-DD
     default: now
-  - name: special_offer
+  - name: main_offer
     type: text
     config:
       required: false
-    label: Special Offer
-  label: Daily Menu
+    label: Zvýrazněná nabídka
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Nadpis
+    default: Denní nabídka
+  - name: soups_toggle
+    type: boolean
+    label: Máme polévky?
+    default: true
+  - name: soups_section
+    type: field_group
+    config: {}
+    label: Polévky
+    showOnly:
+      field: soups_toggle
+      value: true
+  label: Denní menu
