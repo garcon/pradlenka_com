@@ -26,3 +26,5 @@ fields:
       file: 
       path: 
   label: Jazyk
+pages:
+- _daily_menus/cs/2019-08-19.yml
