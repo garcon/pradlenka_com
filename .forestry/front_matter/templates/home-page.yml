@@ -97,3 +97,5 @@ fields:
     schema:
       format: markdown
   label: O nás
+pages:
+- pradlenka-restaurant-bar.md
