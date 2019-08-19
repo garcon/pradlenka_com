@@ -85,3 +85,15 @@ fields:
   showOnly:
     field: laundry_toggle
     value: true
+- name: description
+  type: textarea
+  default: Restauraci Pradlenka můžete znát pod dřívějším názvem Wash Café. Když se
+    vrátíme k historii prostor, ve kterých se Pradlenka nachází,  skutečně zde dříve
+    prádelna byla. I dnes tu vedle baru a restaurace  se skvělým jídlem a pitím najdete
+    veřejnou prádelnu.
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: O nás
