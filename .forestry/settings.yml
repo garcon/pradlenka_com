@@ -19,7 +19,7 @@ sections:
   label: Denní menu (česky)
   create: documents
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20190816015304'
   templates:
   - daily-menu
 upload_dir: uploads
