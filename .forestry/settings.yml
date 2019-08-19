@@ -12,6 +12,13 @@ sections:
 - type: document
   path: _pages/en/index.md
   label: Home Page (English)
+- type: jekyll-pages
+  label: Nějaké stránky
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - landing-page
 - type: heading
   label: Denní menu
 - type: directory
