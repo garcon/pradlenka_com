@@ -17,7 +17,7 @@ sections:
   create: documents
   new_doc_ext: md
   templates:
-  - landing-page
+  - home-page
 - type: heading
   label: Denní menu
 - type: directory
