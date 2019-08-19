@@ -4,11 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: Pokus
-  create: documents
-  templates:
-  - daily-menu
 - type: heading
   label: Stránky
 - type: document
