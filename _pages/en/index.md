@@ -1,14 +1,14 @@
 ---
 layout: home
 logotype: "/uploads/2019/08/19/Pradlenka-logo.png"
-title: Pradlenka – restaurant & bar
+title: Pradlenka – Restaurant & Bar
 daily_menu_select: _daily_menus/cs/2019-08-19.yml
 laundry_toggle: true
-heading: Veřejná prádelna
-description: Restauraci Pradlenka můžete znát pod dřívějším názvem Wash Café. Když
-  se vrátíme k historii prostor, ve kterých se Pradlenka nachází,  skutečně zde dříve
-  prádelna byla. I dnes tu vedle baru a restaurace  se skvělým jídlem a pitím najdete
-  veřejnou prádelnu.
+heading: Laundromat
+description: The Pradlenka restaurant is also known under its former name Wash Café.
+  Looking back into history, in the place where Pradlenka is located, you will find
+  a real laundry. Even today, next to the bar and restaurant  with great food and
+  drinks, we run a public laundry here.
 hero_image:
 - "/uploads/2019/08/19/pradlenka-tap.jpg"
 - "/uploads/2019/08/19/pradlenka-lokal.jpg"
@@ -18,16 +18,17 @@ hero_image:
 - "/uploads/2019/08/19/pradlenka-bar.jpg"
 - "/uploads/2019/08/19/pradlenka-restaurant.jpg"
 - "/uploads/2019/08/19/pradlenka-garden.jpg"
-daily_menu_toggle: true
+daily_menu_toggle: false
 laundry_pricelist:
-- item: Vyprání
-  description: Až 6 kg prádla na jedno vyprání
+- item: Washing
+  description: Up to 6 kg of laundry per wash
   price: 85
-- item: Drogerie
-  description: Prací prášek nebo aviváž
+- item: Detergents
+  description: Detergent or fabric softener
   price: 20
-- item: Sušení
-  description: 12 minut
+- item: Drying
+  description: 12 minutes
   price: 30
+lang: en
 
 ---
