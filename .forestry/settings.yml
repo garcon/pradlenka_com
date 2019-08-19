@@ -18,8 +18,8 @@ sections:
   path: _daily_menus/cs
   label: Denní menu (česky)
   create: documents
-  match: "**/*"
-  new_doc_ext: '20190816015304'
+  match: "**/*.md"
+  new_doc_ext: ".md"
   templates:
   - daily-menu
 upload_dir: uploads
