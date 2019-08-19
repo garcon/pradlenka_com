@@ -9,11 +9,9 @@ sections:
 - type: document
   path: _pages/cs/index.md
   label: Úvodní stránka (česky)
-  match: "**/*"
 - type: document
   path: _pages/en/index.md
   label: Home Page (English)
-  match: "**/*"
 - type: heading
   label: Denní menu
 - type: directory
@@ -21,7 +19,7 @@ sections:
   label: Denní menu (česky)
   create: documents
   match: "**/*"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
   templates:
   - daily-menu
 upload_dir: uploads
