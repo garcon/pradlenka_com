@@ -29,7 +29,7 @@ sections:
   templates:
   - daily-menu
 - type: heading
-  label: Kontakty
+  label: Nastavení
 - type: document
   path: _data/contacts.yml
   label: Kontakty
