@@ -1,8 +1,8 @@
 title: Pradlenka – Restaurant & Bar
 short_title: Pradlenka
 description: Restaurant, bar & laundromat at Praha-Smíchov
-baseurl: "/pradlenka_com"
-url: "https://garcon.github.io"
+# baseurl: "/pradlenka_com"
+# url: "https://garcon.github.io"
 
 meta_version: "knceasdft"
 css_version: "knceasdft"
@@ -12,8 +12,16 @@ gems:
   - jekyll-menus
  # - jekyll-feed
  # - jekyll-archives
+
 exclude:
   - .*/
   - _*/
   - CNAME
   - Gemfile*
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "home"
