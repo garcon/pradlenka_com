@@ -1,9 +1,9 @@
 ---
-label: Landing Page
+label: Home Page
 hide_body: true
 fields:
 - name: layout
-  label: Layout
+  label: Vzhled
   type: text
   hidden: true
   default: home
@@ -11,7 +11,7 @@ fields:
   type: file
   config:
     maxSize: 250
-  label: Logotype
+  label: Logo
   default: "/uploads/2019/08/19/Pradlenka-logo.png"
 - name: hero_image
   type: field_group
@@ -20,11 +20,30 @@ fields:
   - name: hero_images
     type: image_gallery
     config: {}
-    label: Hero Images
+    label: Obrázek
   - name: title
     type: text
     config:
       required: false
-    label: Title
+    label: Nadpis
     default: Pradlenka – restaurant & bar
-  label: Hero Image
+  - name: daily_menu_toggle
+    type: boolean
+    label: Máme denní nabídku?
+    default: false
+  - name: daily_menu
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: pages
+        section: denni-menu-cesky
+        file: 
+        path: 
+    label: Denní nabídka
+    showOnly:
+      field: daily_menu_toggle
+      value: true
+  label: Úvodní obrázek
