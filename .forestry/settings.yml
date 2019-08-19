@@ -19,7 +19,7 @@ sections:
   label: Denní menu (česky)
   create: documents
   match: "**/*.yml"
-  new_doc_ext: ".yml"
+  new_doc_ext: yml
   templates:
   - daily-menu
 upload_dir: uploads
