@@ -45,11 +45,10 @@ fields:
   description: ''
   default: '04095481'
   config:
-    required: true
+    required: false
     min: 
     max: 
     step: 
-    required: false
   label: IČ
 - name: dic
   type: text
