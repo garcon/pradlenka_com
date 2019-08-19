@@ -5,11 +5,16 @@ fields:
 - name: opening_hours
   type: field_group_list
   fields:
-  - name: weekday
+  - name: weekday_cs
     type: text
     config:
       required: false
-    label: Den v týdnu
+    label: Den v týdnu (česky)
+  - name: weekday_en
+    type: text
+    config:
+      required: false
+    label: Den v týdnu (anglicky)
   - name: from
     type: text
     config:
