@@ -1,15 +1,8 @@
 ---
 label: Daily Menu
-hide_body: true
+hide_body: false
 fields:
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Vzhled
-  default: daily-menu
-  hidden: true
-- name: date
+- name: title
   type: datetime
   label: Datum
   description: ''
@@ -33,14 +26,19 @@ fields:
       file: 
       path: 
   label: Jazyk
-- name: daily_menu
-  type: textarea
-  default: ''
+- name: layout
+  type: text
   config:
     required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Denní nabídka
+  label: Vzhled
+  default: daily-menu
+  hidden: true
+- name: categories
+  type: text
+  config:
+    required: false
+  label: Rubrika
+  hidden: true
+  default: Denní nabídka
 pages:
 - _daily_menus/cs/2019-08-19.yml
