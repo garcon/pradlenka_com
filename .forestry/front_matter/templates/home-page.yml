@@ -21,6 +21,12 @@ fields:
       file: 
       path: 
   label: Jazyk
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Odkaz
+  default: ''
 - name: logotype
   type: file
   config:
