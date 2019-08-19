@@ -7,6 +7,20 @@ fields:
   type: text
   hidden: true
   default: home
+- name: lang
+  type: select
+  default: cs
+  config:
+    required: false
+    options:
+    - cs
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Jazyk
 - name: logotype
   type: file
   config:
@@ -97,17 +111,3 @@ fields:
     schema:
       format: markdown
   label: O nás
-- name: lang
-  type: select
-  default: cs
-  config:
-    required: false
-    options:
-    - cs
-    - en
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Jazyk
