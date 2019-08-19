@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: Pokus
+  create: documents
+  match: "**/*"
+  templates:
+  - daily-menu
 - type: heading
   label: Stránky
 - type: document
@@ -28,6 +34,12 @@ sections:
   new_doc_ext: yml
   templates:
   - daily-menu
+- type: heading
+  label: Kontakty
+- type: document
+  path: _data/contacts.yml
+  label: Kontakty
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
