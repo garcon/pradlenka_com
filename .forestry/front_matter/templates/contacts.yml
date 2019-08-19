@@ -34,6 +34,7 @@ fields:
     required: false
   label: Facebook
   default: https://www.facebook.com/pradlenka.bar
+  hidden: false
 - name: email
   label: E-mail
   type: text
@@ -48,6 +49,7 @@ fields:
     min: 
     max: 
     step: 
+    required: false
   label: IČ
 - name: dic
   type: text

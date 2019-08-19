@@ -7,6 +7,26 @@ fields:
   type: text
   hidden: true
   default: home
+- name: lang
+  type: select
+  default: cs
+  config:
+    required: false
+    options:
+    - cs
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Jazyk
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: Odkaz
+  default: ''
 - name: logotype
   type: file
   config:
@@ -98,4 +118,5 @@ fields:
       format: markdown
   label: O nás
 pages:
-- pradlenka-restaurant-bar.md
+- _pages/en/index.md
+- _pages/cs/index.md
