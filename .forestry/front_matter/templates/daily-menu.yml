@@ -2,6 +2,13 @@
 label: Daily Menu
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Vzhled
+  default: daily-menu
+  hidden: true
 - name: date
   type: datetime
   label: Datum
