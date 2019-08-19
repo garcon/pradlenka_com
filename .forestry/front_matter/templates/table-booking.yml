@@ -1,4 +1,10 @@
 ---
 label: Table Booking
 hide_body: true
-fields: []
+fields:
+- name: booking_url
+  type: text
+  config:
+    required: false
+  label: Odkaz na rezervace
+  default: https://forms.zohopublic.com/martinkopta/form/PradlenkaBooking/formperma/ZaULvPA9Lw46mXdn9c0HEKITyFejS3c6fgYCp3g88d8
