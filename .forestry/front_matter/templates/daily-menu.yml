@@ -2,7 +2,7 @@
 label: Daily Menu
 hide_body: false
 fields:
-- name: date
+- name: title
   type: datetime
   label: Datum
   description: ''
@@ -26,12 +26,3 @@ fields:
       file: 
       path: 
   label: Jazyk
-- name: daily_menu
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: Denní nabídka
