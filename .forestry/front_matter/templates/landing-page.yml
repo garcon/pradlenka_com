@@ -41,24 +41,47 @@ fields:
   showOnly:
     field: daily_menu_toggle
     value: true
+- name: laundry_toggle
+  type: boolean
+  label: Funguje prádelna
+  default: true
 - name: heading
   type: text
   config:
     required: false
   label: Nadpis
   default: Veřejná prádelna
-- name: dfdfd
+  showOnly:
+    field: laundry_toggle
+    value: true
+- name: laundry_pricelist
   type: field_group_list
   fields:
-  - name: sdsd
-    type: list
+  - name: item
+    type: text
     config:
-      use_select: false
+      required: false
+    label: Položka
+  - name: description
+    type: text
+    config:
+      required: false
+    label: Popis
+  - name: price
+    type: number
+    label: Cena
+    description: ''
+    default: 0
+    required: true
+    config:
       min: 
       max: 
-    label: sdsd
+      step: 
   config:
     min: 
     max: 
     labelField: 
-  label: dfdfd
+  label: Ceník praní
+  showOnly:
+    field: laundry_toggle
+    value: true
