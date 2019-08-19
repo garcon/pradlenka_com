@@ -1,6 +1,6 @@
 ---
 label: Daily Menu
-hide_body: false
+hide_body: true
 fields:
 - name: date
   type: datetime
@@ -26,5 +26,14 @@ fields:
       file: 
       path: 
   label: Jazyk
+- name: daily_menu
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Denní nabídka
 pages:
 - _daily_menus/cs/2019-08-19.yml
