@@ -13,20 +13,15 @@ fields:
     maxSize: 250
   label: Logo
   default: "/uploads/2019/08/19/Pradlenka-logo.png"
+- name: title
+  type: text
+  config:
+    required: false
+  label: Název
+  default: Pradlenka – restaurant & bar
 - name: hero_image
-  type: field_group
+  type: image_gallery
   config: {}
-  fields:
-  - name: hero_images
-    type: image_gallery
-    config: {}
-    label: Obrázek
-  - name: title
-    type: text
-    config:
-      required: false
-    label: Nadpis
-    default: Pradlenka – restaurant & bar
   label: Úvodní obrázek
 - name: daily_menu_toggle
   type: boolean
@@ -46,3 +41,11 @@ fields:
   showOnly:
     field: daily_menu_toggle
     value: true
+- name: featurelist
+  type: blocks
+  template_types:
+  - daily-menu
+  config:
+    min: 
+    max: 
+  label: Co u nás najdete
