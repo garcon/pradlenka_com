@@ -2,12 +2,6 @@ title: Pradlenka – Restaurant & Bar
 short_title: Pradlenka
 description: Restaurant, bar & laundromat at Praha-Smíchov
 baseurl:
-permalink: "/:path/"
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
 gems:
   - jekyll-menus
  # - jekyll-feed

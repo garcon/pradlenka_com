@@ -30,6 +30,6 @@ laundry_pricelist:
   description: 12 minut
   price: 30
 lang: cs
-permalink: "/"
+permalink: /
 
 ---
