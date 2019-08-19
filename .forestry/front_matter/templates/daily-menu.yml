@@ -2,7 +2,7 @@
 label: Daily Menu
 hide_body: false
 fields:
-- name: title
+- name: date
   type: datetime
   label: Datum
   description: ''
@@ -26,19 +26,5 @@ fields:
       file: 
       path: 
   label: Jazyk
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Vzhled
-  default: daily-menu
-  hidden: true
-- name: categories
-  type: text
-  config:
-    required: false
-  label: Rubrika
-  hidden: true
-  default: Denní nabídka
 pages:
 - _daily_menus/cs/2019-08-19.yml
