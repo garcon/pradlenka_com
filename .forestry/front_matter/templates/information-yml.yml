@@ -2,48 +2,56 @@
 label: Contact Information
 hide_body: true
 fields:
-- name: email
-  label: Email
+- name: organization
+  type: text
+  config:
+    required: false
+  label: Organization
+  default: Pradlenka – restaurant & bar
+- name: address
+  label: Address
   type: text
   hidden: false
-  default: ''
-- name: phone
-  label: Phone
-  type: text
-  hidden: false
-  default: ''
-- name: address_1
-  label: Address 1
-  type: text
-  hidden: false
-  default: ''
-- name: address_2
-  label: Address 2
-  type: text
-  hidden: false
-  default: ''
+  default: Nádražní 308/66
 - name: city
   label: City
   type: text
   hidden: false
-  default: ''
-- name: state
-  label: State
-  type: text
-  hidden: false
-  default: ''
+  default: Praha 5-Smíchov
 - name: postal_code
   label: Postal code
   type: text
   hidden: false
-  default: ''
-- name: country
-  label: Country
+  default: 150 00
+- name: phone
+  label: Phone
   type: text
   hidden: false
-  default: ''
-- name: twitter
-  label: Twitter
+  default: "+420 257 327 699"
+- name: facebook
+  type: text
+  config:
+    required: false
+  label: Facebook
+  default: https://www.facebook.com/pradlenka.bar
+- name: email
+  label: Email
   type: text
   hidden: false
-  default: ''
+  default: restaurace.bar@gmail.com
+- name: ic
+  type: number
+  description: ''
+  default: '04095481'
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: Company ID
+- name: dic
+  type: text
+  config:
+    required: false
+  label: VAT ID
+  default: CZ04095481
