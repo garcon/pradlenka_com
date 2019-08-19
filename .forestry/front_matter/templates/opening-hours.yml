@@ -34,3 +34,4 @@ fields:
   label: Otevírací doba
 pages:
 - _data/opening-hours.yml
+- _data/opening-hours.yml
