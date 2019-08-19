@@ -7,7 +7,7 @@ sections:
 - type: directory
   path: ''
   label: Stránky
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - home-page
