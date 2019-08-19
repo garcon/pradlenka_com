@@ -49,6 +49,7 @@ fields:
     min: 
     max: 
     step: 
+    required: false
   label: IČ
 - name: dic
   type: text
