@@ -41,11 +41,24 @@ fields:
   showOnly:
     field: daily_menu_toggle
     value: true
-- name: featurelist
-  type: blocks
-  template_types:
-  - daily-menu
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Nadpis
+  default: Veřejná prádelna
+- name: dfdfd
+  type: field_group_list
+  fields:
+  - name: sdsd
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: sdsd
   config:
     min: 
     max: 
-  label: Co u nás najdete
+    labelField: 
+  label: dfdfd
