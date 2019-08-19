@@ -35,6 +35,36 @@ fields:
   - name: soups_section
     type: field_group
     config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Nadpis
+      default: Polévky
+    - name: soups
+      type: field_group_list
+      fields:
+      - name: name
+        type: text
+        config:
+          required: false
+        label: Název
+      - name: price
+        type: number
+        label: Cena
+        description: ''
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Polévka
     label: Polévky
     showOnly:
       field: soups_toggle
@@ -46,6 +76,38 @@ fields:
   - name: menu_of_the_day_section
     type: field_group
     config: {}
+    fields:
+    - name: menu_of_the_day
+      type: field_group_list
+      fields:
+      - name: heading
+        type: text
+        config:
+          required: false
+        label: Nadpis
+        default: Menu dne
+      - name: menu_items
+        type: list
+        config:
+          use_select: false
+          min: 
+          max: 
+        label: Položky menu
+      - name: price
+        type: number
+        label: Cena
+        description: ''
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Menu dne
     label: Menu dne
     showOnly:
       field: menu_of_the_day_toggle
@@ -57,6 +119,36 @@ fields:
   - name: main_courses_section
     type: field_group
     config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Nadpis
+      default: Hlavní jídla
+    - name: main_courses
+      type: field_group_list
+      fields:
+      - name: name
+        type: text
+        config:
+          required: false
+        label: Název
+      - name: price
+        type: number
+        description: ''
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+        label: Cena
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Hlavní jídlo
     label: Hlavní jídla
     showOnly:
       field: main_courses_toggle
@@ -75,6 +167,29 @@ fields:
         required: false
       label: Nadpis
       default: Salátek
+    - name: salad
+      type: field_group_list
+      fields:
+      - name: name
+        type: text
+        config:
+          required: false
+        label: Název
+      - name: price
+        type: number
+        label: Cena
+        description: ''
+        default: 0
+        required: true
+        config:
+          min: 
+          max: 
+          step: 
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Salát
     label: Saláty
     showOnly:
       field: salads_toggle
