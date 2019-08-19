@@ -1,4 +1,25 @@
 ---
 label: Daily Menu
 hide_body: true
-fields: []
+fields:
+- name: daily_menu
+  type: field_group
+  config: {}
+  fields:
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: DD. MM. YYYY
+      time_format: 
+      display_utc: false
+      export_format: YYYY-MM-DD
+    default: now
+  - name: special_offer
+    type: text
+    config:
+      required: false
+    label: Special Offer
+  label: Daily Menu
