@@ -36,6 +36,10 @@ sections:
 - type: document
   path: _data/opening-hours.yml
   label: Otevírací doba
+- type: document
+  path: _data/booking.yml
+  label: Rezervace
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
