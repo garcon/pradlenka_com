@@ -43,8 +43,8 @@ fields:
   type: number
   description: ''
   default: '04095481'
-  required: true
   config:
+    required: true
     min: 
     max: 
     step: 
