@@ -3,7 +3,6 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.6.3"
 
 group :jekyll_plugins do
-  gem "github-pages"
 #  gem "jekyll-feed", "~> 0.6"
   gem "jekyll-menus"
 #  gem "jekyll-tagging"
