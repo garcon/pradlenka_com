@@ -3,7 +3,27 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: Stránky
+- type: document
+  path: _pages/cs/index.md
+  label: Úvodní stránka (česky)
+  match: "**/*"
+- type: document
+  path: _pages/en/index.md
+  label: Home Page (English)
+  match: "**/*"
+- type: heading
+  label: Denní menu
+- type: directory
+  path: _daily_menus/cs
+  label: Denní menu (česky)
+  create: documents
+  match: "**/*"
+  new_doc_ext: ".yml"
+  templates:
+  - daily-menu
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
