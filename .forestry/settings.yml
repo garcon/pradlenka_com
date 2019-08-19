@@ -15,8 +15,7 @@ sections:
 - type: jekyll-pages
   label: Nějaké stránky
   create: documents
-  match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - landing-page
 - type: heading
