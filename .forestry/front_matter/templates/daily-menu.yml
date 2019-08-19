@@ -41,5 +41,4 @@ fields:
   hidden: true
   default: Denní nabídka
 pages:
-- _posts/2019-08-19.md
 - _daily_menus/cs/2019-08-19.yml
